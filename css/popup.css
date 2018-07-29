@@ -1,0 +1,27 @@
+
+body{
+	width:300px;
+}
+
+
+.name{
+	display: inline;
+}
+
+.time{
+	display: inline;
+}
+
+.bookmark_button{
+	text-align: center;
+}
+
+
+h2{
+	font-size: 14px;
+}
+
+h3{
+	font-size: 12px;
+	text-align: right;
+}
