@@ -1,6 +1,6 @@
 What is it
 ----------------
-A chrome plugin for playing youtube videos. It can play music from Youtube in the background and keeps track of a playlist which is persisted to browser's local storage.
+chrome extension to bookmark and access specific times of youtube videos.
 
 Basic design
 -------------------
@@ -13,13 +13,10 @@ Wire up the DOM with youtubeAPI.
 
 Loads the Youtube iframe API dynamically and setups up the youtube player in the background html. Expose a player control object that provides public functions to change the state of the player (change songs, manage playlist)
 
-- persist.js
-
 Popup:
-- popup.js
-Get an instance of the popup view from background.js
+- popup.html
+DOM of popup 
 
 
 // Playlist
-- Add {video title, id}
-- create/delete/drag to playlist, play from playlist,
+- Add {video title, time bookmarked}
